@@ -12,5 +12,15 @@ namespace Wordplay.Test
         {
             Assert.AreEqual("Alphabetical input only. Please try again.", anagram.FindAnagrams("10"));
         }
+        [TestMethod]
+        public void FindAnagrams_WordWithoutAnagrams_NoAnagrams()
+        {
+            Assert.AreEqual("No anagrams available.", anagram.FindAnagrams("truck"));
+        }
+        [TestMethod]
+        public void FindAnagrams_SameLengthAnagram_Vile()
+        {
+            Assert.AreEqual("vile", anagram.FindAnagrams("evil"));
+        }
     }
 }

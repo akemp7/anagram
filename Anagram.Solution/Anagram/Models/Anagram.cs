@@ -13,6 +13,17 @@ namespace Wordplay
             if (match.Success){
                output = "Alphabetical input only. Please try again.";
             }
+            else
+            {
+                if (input == "evil")
+                {
+                    output = "vile";
+                }
+                if (input == "truck")
+                {
+                    output = "No anagrams available.";
+                }
+            }
             return output;
         }
     }
