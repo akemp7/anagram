@@ -1,6 +1,6 @@
-# _Anagram Checker_
+# _Anagram Generator_
 
-#### _An application to test whether , 1 Oct 2019_
+#### _An application generate possible anagrams of the user's chosen word, 1 Oct 2019_
 
 #### By _**Anita Kemp and Jacqueline Remmel**_
 
