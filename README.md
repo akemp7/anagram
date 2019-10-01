@@ -1,6 +1,6 @@
 # _Anagram Generator_
 
-#### _An application generate possible anagrams of the user's chosen word, 1 Oct 2019_
+#### _An application that generates possible anagrams of the user's chosen word, 1 Oct 2019_
 
 #### By _**Anita Kemp and Jacqueline Remmel**_
 
@@ -17,8 +17,10 @@
 
 ## Setup/Installation Requirements
 
-* _Clone this repository and navigate to the project directory._
+* _Clone this repository and navigate to the "anagram" project directory_
+* _Navigate to "Anagram.Solution" and then to "Anagram"_
 * _Run the command "dotnet restore"_
+* _Run the command "dotnet run"_
 
 ## Technologies Used
 
